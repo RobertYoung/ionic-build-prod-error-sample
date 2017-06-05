@@ -9,6 +9,12 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { Test } from "./../../server/test";
+
+var test: Test = new Test();
+
+console.log(test);
+
 @NgModule({
   declarations: [
     MyApp,
